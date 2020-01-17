@@ -1,0 +1,155 @@
+
+p{
+  font-family: 'Aileron thin', arial;  
+  font-size: 2.2em;
+  padding-left: 45px;
+  padding-right: 45px;    
+}
+
+
+/*BLOCK ARTICLE 1 */
+
+
+#artist_name img{
+    height:auto;
+    width:70%;
+}
+
+#carre_couleur{
+    height:300px;
+    width: 55%;
+    background-color:#8d3939;
+    margin-left: 11px;
+    margin-top: -30px;
+}
+
+
+#ref_couleur h4{
+    font-family: 'Aileron thin', arial;
+    margin-left: 11px;
+    font-size: 2em;
+}
+
+#article_white p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#album_ref{
+    display: flex;
+}
+
+#album_ref h4{
+   font-family: 'Aileron thin', arial;
+   margin-left: 11px;
+   font-size: 2em; 
+   padding-top: 100px;
+    
+}
+
+
+
+
+/*BLOCK ARTICLE 2 */
+
+
+#article_black{
+    background-color: #212121;
+    margin-top: 13px;
+}
+
+#article_black p{
+    color: white;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+   
+}
+
+
+/* MEDIA QUERIES*/
+
+@media screen and (min-width: 1400px){
+    
+    #wrapper{
+        height: auto;
+    }
+    #articles{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #article_white{
+      
+        width: 50%;
+    }
+    
+    #article_white p{
+        padding-left:10px ;
+        padding-right:15px ;  
+    }
+    
+    #article_black{
+        width: 50%;
+        margin-top: -27%;
+ 
+    }
+    
+    #article_black p{
+        
+        padding-left:10px ;
+        padding-right:10px ;
+        padding-top: 40px;
+    }
+    
+   
+    #artist_name img{
+        height:auto;
+        width: 20%;
+        
+    }
+    
+    #carre_couleur{
+        width: 29%;
+        height: 450px;
+        margin-left: 20px;
+    }
+    
+    #banniere{
+        background-color: #212121
+    }
+    
+    #banniere div{
+        margin-left: auto;
+        margin-right: auto;
+        height: 800px;
+
+    }
+    
+    #banniere img{
+       height: auto;
+        width: 1200px;
+        padding-top:50px;
+       
+    }
+    
+    footer{
+        margin-top:-1px; 
+    }
+    
+    #block_footer img{
+        width: 18%;
+    }
+    
+}
+
+
+
+
+
+
+
+/*BANNIERE */

@@ -1,0 +1,196 @@
+
+
+
+/*MAIN*/
+
+#main img{
+    height:auto;
+    width:70%;
+}
+
+
+p{
+  font-family: 'Aileron thin', arial;  
+  font-size: 2.3em;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+
+/* BLOCK CONTACT*/
+
+
+#block_contact{
+    background-color: #faf9ff;
+    height: auto;
+    width: auto;
+    border-bottom-color: black;
+    border-bottom: 0.1rem solid;
+}
+
+form{
+    margin-left: 20px;
+}
+
+#input_mail input{
+    height:100px;
+    width:50% ;
+    font-family:'Aileron thin', arial;
+    font-size: 2.7em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#input_area{
+    height:400px;
+    width:70% ;
+    font-family:'Aileron thin', arial;
+    font-size: 2.7em;
+    color: black;
+    
+}
+
+#bouton_envoyer input{
+    height:110px;
+    width:280px ;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family:'Aileron thin', arial;
+    font-size: 2.5em;
+    color: white;
+    background-color:#1647Fb ;
+    float: right;
+    margin-left: 390px;
+    margin-top: -120px;
+    position: absolute;
+}
+
+
+
+/* BLOCK A PROPOS*/
+
+#block_apropos img{
+    float: right;
+    margin-top: -25px;
+   
+}
+
+#block_apropos p{
+    margin-top: 260px;
+}
+
+
+
+/* NEWSLETTER*/
+
+
+#back_rose{
+    background-color:#c2185b ;
+}
+
+#block_news{
+    background-color:#2c1f36 ;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media screen and (min-width: 1400px){
+    
+    #wrapper{
+      height: auto; 
+    }
+    
+    p{
+        line-height: 150%;
+    }
+    #main{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #block_contact{
+        width: 50%;
+    }
+    
+    #input_contact{
+       margin-left: 1%; 
+    }
+    
+    #bouton_envoyer{
+        margin-top: 150px;
+        margin-left: 22%;
+    }
+    
+    #block_contact article{
+        width: 87%;
+        margin-left: 1%;
+        margin-top: 230px;
+       
+    }
+    
+    #block_apropos{
+        width: 50%;
+        background-color: white;
+    }
+    
+    #block_apropos article{
+        width: 87%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    #logo_contact img{
+        height: auto;
+        width: 36%;
+        margin-top: 25px;
+    }
+    
+     #logo_apropos img{
+        height: auto;
+        width: 36%;
+        margin-top: 25px;
+    }
+    
+    
+    /*NEWSLETTER*/
+    
+    #back_rose{
+        height: 65%;
+    }
+    
+    #text_news{
+        margin-top: 180px;
+    }
+    #text_news form {
+        display: flex;
+        margin-right: 450px;
+    }
+    
+    #button_inscription{
+        margin-left: 15px;
+        margin-top: -30px;
+       
+    }
+    
+    #button_inscription input{
+         height: 118px;
+    }
+    
+    
+    /*FOOTER*/
+    
+    footer{
+        margin-top: -0.8px;
+    }
+
+    
+    
+}
+
+
+
+
+

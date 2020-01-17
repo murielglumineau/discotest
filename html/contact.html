@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact </title>
+  <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_contact.css">
+</head>
+<body>
+ 
+     
+      
+     <header>
+       <div id="menu">
+           
+           <div id="logo">
+                <a href="../index.html"><img src="../images/logodisco.png"></a>
+           </div>
+           
+           <div id="subtitle">
+               <img src="../images/subtitledisco.png">
+           </div>
+           
+           <div id="burger">
+               <img id="img_burger" src="../images/menuburger.png">
+           </div>   
+             
+           <div  id="menu_burger">
+               <nav>
+                   <ul>
+                        <a href="../index.html"><li>Accueil</li></a>
+                        <a href="articles_1.html"><li>Articles</li></a>
+                        <a ><li>Playlists</li></a>
+                        <a href="contact.html"><li>Contact</li></a>
+                       
+                   </ul>
+               </nav>
+        </div>   
+                
+       </div>
+     </header>
+    
+      
+    
+    
+
+     <div id="wrapper">
+      
+     <section id="main">
+         
+    <!-- BLOCK CONTACT -->
+        <div id="block_contact">
+            
+            <div id="logo_contact">
+                <img src="../images/contact_logo.png">
+            </div>
+         
+            <div id="input_contact">
+                <form method="post" action='../php/contact.php'>
+               
+                      <div id="input_mail">
+                          <input id="input_mail" type=text name=mail placeholder="Ton mail">
+                      </div>
+                
+                       <div id="input_message">
+                           
+                           <textarea placeholder="ton message" id="input_area" name="message"
+                                     rows="30O" cols="100"></textarea>
+                           
+                              <div id="bouton_envoyer">
+                                  <input id="bouton_envoyer" type=submit name=submit value=Envoyer>
+                                  
+                              </div>
+                       </div>
+                    
+                 </form>
+            </div>
+            
+            <div id="info_contact">
+                 <article>
+                     <p>
+                        De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem  mise en page elle-même. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faudéfaut, et une rn sait depuis longtemp
+                     </p>
+                </article>
+            </div>
+            
+            
+         </div> 
+
+     
+         
+         
+         
+         
+         
+    <!-- BLOCK A PROPOS -->
+         
+         <div id="block_apropos">
+         
+             
+             <div id="logo_apropos">
+                  <img src="../images/apropos_logo.png">
+             </div>
+             
+             
+             
+             <div id="info_apropos">
+                 
+                 <article>
+                     <p>
+                         De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par L'avantage du Lorem Ipsum sur un texte génériqueéfaut, et une rn sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut Lorem Ipsum sur un texte générique.
+
+                     </p>
+                 </article>
+                 
+            </div>
+             
+             
+         </div> 
+      
+         
+         
+         
+         
+         
+     </section>
+      
+      
+       <section id="newsletter">
+          <div id="block_news">
+            <div id="back_rose">
+                <img src="../images/newsletter.png">
+            </div>
+          
+            <div id="text_news">
+            <div id="news_info">
+                <h3> suivre l'actualité et être alerté(e)<br> à la sortie d'un nouvel article.</h3>
+            </div>
+          
+              
+             <form method='POST' action='../php/newsletter.php'>
+              
+                <div id="button_mail">
+                <input type="text" name="mail_user" placeholder="Entre ton mail">
+                </div>
+          
+                <div id="button_inscription">
+                <input type="submit" name="inscription" value="S'inscrire">
+               
+                 </div>
+              
+          </form>
+            </div>
+            
+          </div>
+             
+      </section>
+      </div>
+      
+      
+    
+      
+      
+      <footer>
+          <div id="block_footer">
+              <div>
+                  <img src="../images/underlogodisco.png">
+              </div>
+          </div>      
+      </footer>
+    
+  
+      <script src="../js/menu.js"></script>
+</body>
+</html>
